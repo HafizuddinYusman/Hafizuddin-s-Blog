@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Journal | Engineering Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><strong>Portfolio.</strong></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" style="cursor:pointer; border:none; background:none; font-size:1.5rem;">🌙</button>
+    </nav>
+
+    <main style="padding: 3rem 8%; max-width: 1100px; margin: 0 auto;">
+        <header style="text-align: center; margin-bottom: 4rem;">
+            <h1>Development Journal</h1>
+            <p style="color: var(--accent-color); font-weight: 600;">Documenting System Architecture, Modeling, and Backend Logic</p>
+        </header>
+
+        <div style="display: flex; flex-direction: column; gap: 3rem;">
+
+            <article style="background: var(--secondary-bg); padding: 2.5rem; border-radius: 12px; border-left: 5px solid var(--accent-color);">
+                <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); font-weight: bold;">Database Design</span>
+                <h2 style="margin: 0.5rem 0 1rem 0;">Log #1: Designing Relational Schemas and Enforcing Data Integrity</h2>
+                <p style="font-size: 0.9rem; margin-bottom: 1.5rem; opacity: 0.8;"><em>Published on: April 14, 2026</em></p>
+                <p>
+                    A critical phase in system engineering is building database tables that resist anomalies. During my recent architectural work, I focused heavily on database design, normalizing schemas to Third Normal Form (3NF) and drafting strict entity relationships. 
+                </p>
+                <p>
+                    When migrating schemas or writing custom SQL column mappings, attention to naming accuracy is vital. For example, troubleshooting mismatched column markers like tracking accurate time-stamps (e.g., handling explicit fields like <code>Appointments_DateTime</code>) taught me the importance of maintaining rigorous data dictionaries to eliminate unexpected framework execution blocks.
+                </p>
+            </article>
+
+            <article style="background: var(--secondary-bg); padding: 2.5rem; border-radius: 12px; border-left: 5px solid var(--accent-color);">
+                <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); font-weight: bold;">System Analysis</span>
+                <h2 style="margin: 0.5rem 0 1rem 0;">Log #2: Structural Analysis Using Multi-Level Data Flow Modeling</h2>
+                <p style="font-size: 0.9rem; margin-bottom: 1.5rem; opacity: 0.8;"><em>Published on: May 02, 2026</em></p>
+                <p>
+                    Software systems fail when boundaries are poorly defined. This post explores system analysis methodologies, contrasting rigid Waterfall steps with fast Agile sprints. I spent considerable time defining project scope through visual representation.
+                </p>
+                <p>
+                    A major takeaway was understanding diagram scope: correctly identifying high-level boundaries as Context Diagrams before attempting to break down deeper structural flows into Level-0 and Level-1 Data Flow Diagrams (DFDs). Getting these models right makes documenting functional system specs significantly more straightforward.
+                </p>
+            </article>
+
+            <article style="background: var(--secondary-bg); padding: 2.5rem; border-radius: 12px; border-left: 5px solid var(--accent-color);">
+                <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); font-weight: bold;">Backend Engineering</span>
+                <h2 style="margin: 0.5rem 0 1rem 0;">Log #3: MVC Architecture and Routing in Web Frameworks</h2>
+                <p style="font-size: 0.9rem; margin-bottom: 1.5rem; opacity: 0.8;"><em>Published on: May 25, 2026</em></p>
+                <p>
+                    Implementing real-time dashboards and scheduling views requires solid framework configuration. This log maps out how I handled routing structures, models, and custom controllers inside an MVC (Model-View-Controller) environment like PHP's CodeIgniter framework.
+                </p>
+                <p>
+                    I detailed methods for routing clean URLs directly to patient dashboards, handling incoming data arrays, and intercepting missing route errors. Structuring applications using clean MVC divisions isolates rendering layouts from core backend logic—making the entire application easier to test and scale.
+                </p>
+            </article>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
