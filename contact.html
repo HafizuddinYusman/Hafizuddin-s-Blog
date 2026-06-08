@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Journal | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><strong>Portfolio.</strong></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" style="cursor:pointer; border:none; background:none; font-size:1.5rem;">🌙</button>
+    </nav>
+
+    <main style="padding: 3rem 8%; max-width: 700px; margin: 0 auto;">
+        <header style="text-align: center; margin-bottom: 3rem;">
+            <h1>Get In Touch</h1>
+            <p style="color: var(--accent-color); font-weight: 600;">Let's connect on system architectures, database designs, or collaboration opportunities.</p>
+        </header>
+
+        <div style="background: var(--secondary-bg); padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                
+                <div>
+                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="e.g., Jane Doe" 
+                           style="width: 100%; padding: 0.8rem; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; background: var(--primary-bg); color: var(--text-color);">
+                </div>
+
+                <div>
+                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="e.g., jane@example.com" 
+                           style="width: 100%; padding: 0.8rem; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; background: var(--primary-bg); color: var(--text-color);">
+                </div>
+
+                <div>
+                    <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 700;">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="e.g., Database Schema Inquiry / Project Collaboration" 
+                           style="width: 100%; padding: 0.8rem; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; background: var(--primary-bg); color: var(--text-color);">
+                </div>
+
+                <div>
+                    <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..." 
+                              style="width: 100%; padding: 0.8rem; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; background: var(--primary-bg); color: var(--text-color); font-family: inherit; resize: vertical;"></textarea>
+                </div>
+
+                <button type="submit" style="background: var(--accent-color); color: white; border: none; padding: 1rem; border-radius: 6px; font-weight: bold; cursor: pointer; transition: background 0.2s;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
