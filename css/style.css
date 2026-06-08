@@ -50,3 +50,55 @@ nav {
         display: none; /* We can add a toggle later for mobile */
     }
 }
+
+/* ==========================================================================
+   Responsive Mobile Media Queries
+   ========================================================================== */
+
+/* Triggers when the screen width is 768px wide or smaller (Tablets & Phones) */
+@media (max-width: 768px) {
+    
+    /* 1. Prevent text from clipping and scale headers down slightly */
+    html {
+        font-size: 14px; /* Global font downscale for compact mobile viewing */
+    }
+    
+    h1 {
+        font-size: 2rem !important; /* Prevents long titles from breaking layout */
+    }
+
+    /* 2. Make padded main containers breathing room on tight screens */
+    main {
+        padding: 2rem 5% !important; /* Reduces large 8% desktop padding down to 5% */
+    }
+
+    /* 3. Re-align side-by-side components into vertical columns */
+    .skills-section > div, 
+    section {
+        grid-template-columns: 1fr !important; /* Forces grids to stay in a clean, single column */
+        gap: 1.5rem !important;
+    }
+
+    /* 4. Make navigation bar mobile-friendly or scrollable */
+    nav {
+        padding: 1rem 5% !important;
+        flex-direction: column; /* Stack logo above links if space runs out */
+        gap: 1rem;
+    }
+
+    .nav-links {
+        gap: 1.5rem !important; /* Tighten spaces between home, about, blog links */
+        flex-wrap: wrap; /* Allows links to wrap elegantly instead of overflowing horizontally */
+        justify-content: center;
+    }
+}
+
+/* Triggers for extra small devices (Phones smaller than 480px wide) */
+@media (max-width: 480px) {
+    /* Scale profile photo down so it doesn't overflow small screens */
+    img[alt*="Profile Picture"], 
+    div style*="width: 280px" {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
