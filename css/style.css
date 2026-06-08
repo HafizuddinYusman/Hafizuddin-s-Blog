@@ -44,13 +44,6 @@ nav {
     font-weight: 600;
 }
 
-/* Responsive Logic  */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none; /* We can add a toggle later for mobile */
-    }
-}
-
 /* ==========================================================================
    Responsive Mobile Media Queries
    ========================================================================== */
