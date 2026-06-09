@@ -14,6 +14,35 @@ An interactive, fully responsive personal project portfolio and engineering deve
 
 ---
 
+## 🖥️ Website Preview
+
+### Desktop Preview
+
+<p align="center">
+  <img src="assets/screenshots/desktop-index.png" width="45%" alt="Desktop Home Page Preview">
+  <img src="assets/screenshots/desktop-about.png" width="45%" alt="Desktop About Page Preview">
+  <br><br>
+  <img src="assets/screenshots/desktop-blog.png" width="45%" alt="Desktop Blog Page Preview">
+  <img src="assets/screenshots/desktop-contact.png" width="45%" alt="Desktop Contact Page Preview">
+</p>
+
+> Desktop preview showcasing all main pages including the landing page, developer profile, technical blog entries, and contact interface.
+
+---
+
+### Mobile Preview
+
+<p align="center">
+  <img src="assets/screenshots/mobile-index.png" width="22%" alt="Mobile Home Page Preview">
+  <img src="assets/screenshots/mobile-about.png" width="22%" alt="Mobile About Page Preview">
+  <img src="assets/screenshots/mobile-blog.png" width="22%" alt="Mobile Blog Page Preview">
+  <img src="assets/screenshots/mobile-contact.png" width="22%" alt="Mobile Contact Page Preview">
+</p>
+
+> Mobile preview demonstrating responsive layouts, optimized navigation, and mobile-first user experience across all website sections.
+
+--- 
+
 ## 🛠️ Technical Skillset & Tools Matrix
 - **Languages:** PHP, Python, Java, C#, C++, C, Flutter/Dart, HTML5, CSS3, JavaScript (ES6+)
 - **Environments & Engines:** VS Code, Android Studio, NetBeans, Unity Engine
