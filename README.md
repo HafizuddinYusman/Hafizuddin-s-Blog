@@ -52,6 +52,44 @@ An interactive, fully responsive personal project portfolio and engineering deve
 
 ---
 
+## 🚀 Featured Projects
+
+### 📝 Mind Track — Mental Health Monitoring System
+
+**Live Demo:** [Launch Mind Track Application ↗️](https://078132.unisza.work/mindtrack/)
+
+A full-stack mental health tracking platform developed using the CodeIgniter framework. The system focuses on helping users monitor emotional well-being through journal entries, structured tracking features, and interactive dashboards.
+
+**Key Highlights:**
+- Built using MVC architecture with CodeIgniter
+- Secure user authentication and dashboard management
+- MySQL relational database integration
+- Responsive interface design using HTML5 and CSS3
+- Data-driven mental health monitoring workflow
+
+**Technology Stack:**
+`CodeIgniter` `PHP` `MySQL` `HTML5` `CSS3` `JavaScript`
+
+---
+
+### 🧠 Mental Health Tracking Platform
+
+**Live Demo:** [Launch Mental Health Tracker ↗️](https://078132.unisza.work/mentalhealthtracker/)
+
+A web-based healthcare management system designed to manage user records, appointment scheduling, and monitoring activities through role-based access control.
+
+**Key Highlights:**
+- Role-based authentication system (Admin/User)
+- Appointment scheduling management
+- Secure database CRUD operations
+- MVC-based backend structure
+- Organized dashboard workflow for different user roles
+
+**Technology Stack:**
+`CodeIgniter` `PHP` `MySQL` `HTML5` `CSS3`
+
+---
+
 ## 📁 Repository Architecture & Organization
 ```text
 ├── index.html          # Landing Showcase Page
