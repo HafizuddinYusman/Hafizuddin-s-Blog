@@ -54,7 +54,7 @@ An interactive, fully responsive personal project portfolio and engineering deve
 
 ## 🚀 Featured Projects
 
-### 📝 Mind Track — Mental Health Monitoring System
+### 📝 Mind Track — Mental Health Monitoring System (IN PROGRESS)
 
 **Live Demo:** [Launch Mind Track Application ↗️](https://078132.unisza.work/mindtrack/)
 
@@ -87,6 +87,15 @@ A web-based healthcare management system designed to manage user records, appoin
 
 **Technology Stack:**
 `CodeIgniter` `PHP` `MySQL` `HTML5` `CSS3`
+
+**🔑 Testing Credentials**
+
+| Account Type | Username | Password |
+|---|---|---|
+| Admin Portal | `admin` | `Hafiz@123` |
+| User Portal | `hafiz` | `Hafiz@123` |
+
+> Use the provided credentials to explore different access levels and system functionalities.
 
 ---
 
